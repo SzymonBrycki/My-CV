@@ -19,6 +19,19 @@ div.naglowek h1
 	font-size: 60px;
 }
 
+.career-goals
+{
+	text-align: center;
+	
+	border-top-style: solid;
+	border-top-color: #FFCC00;
+	border-top-width: 3px;
+	
+	border-bottom-style: solid;
+	border-bottom-color: #FFCC00;
+	border-bottom-width: 3px;
+}
+
 .basic-info
 {
 	text-align: center;
