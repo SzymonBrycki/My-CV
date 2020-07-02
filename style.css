@@ -1,0 +1,74 @@
+body
+{
+	background-color: #003399;
+	color: #FFCC00;
+}
+
+div.naglowek
+{
+	text-align: center;
+	top: 0; 
+	right: 0;
+	left: 0;
+}
+
+div.naglowek h1
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.container
+{
+	/* float: left; */
+}
+
+.container2
+{
+	float: left;
+	width: 65%;
+	border-right-style: solid;
+	border-right-color: #FFCC00;
+	border-right-width: 3px;
+}
+
+ 
+.container3
+{
+	/* margin-left: 2px; */
+}
+
+
+.main-part
+{
+	
+}
+
+.additional-part
+{
+	/* margin-left: 10px; */
+}
+
+/* div#flaga
+{
+	clear: both;
+	/* background-color: red; */
+	/* width: 100%;
+	height: auto; */
+	/* max-height: 500px; */
+	/* background-image: url("IMG/EUFlag.png");
+	background-position: center; */
+	/* background-attachment: fixed; */
+}
+*/
+
+.footer-div
+{
+	clear: both;
+}
+
+footer
+{
+	text-align: center;
+}
