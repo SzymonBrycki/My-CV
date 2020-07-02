@@ -21,13 +21,12 @@ div.naglowek h1
 
 .container
 {
-	/* float: left; */
 }
 
 .container2
 {
 	float: left;
-	width: 65%;
+	width: 60%;
 	border-right-style: solid;
 	border-right-color: #FFCC00;
 	border-right-width: 3px;
