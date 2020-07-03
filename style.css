@@ -2,6 +2,8 @@ body
 {
 	background-color: #003399;
 	color: #FFCC00;
+	margin: 0;
+	padding: 0;
 }
 
 div.naglowek
@@ -34,7 +36,6 @@ div.naglowek h1
 
 .basic-info
 {
-	text-align: center;
 	border-bottom-style: solid;
 	border-bottom-color: #FFCC00;
 	border-bottom-width: 3px;
@@ -55,7 +56,8 @@ div.naglowek h1
 	border-right-style: solid;
 	border-right-color: #FFCC00;
 	border-right-width: 3px;
-	margin-right: 5px;
+	margin-right: 10px;
+	min-height: 100%;
 }
 
  
@@ -88,9 +90,19 @@ div.naglowek h1
 }
 */
 
-.footer-div
+.container4
 {
 	clear: both;
+}
+
+.footer-div
+{
+    /*
+	clear: both;
+	*/
+	border-top-style: solid;
+	border-top-color: #FFCC00;
+	border-top-width: 3px;
 }
 
 footer
