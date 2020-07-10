@@ -49,7 +49,7 @@ div.naglowek h1
 	*/
 }
 
-.container2
+/* .container2
 {
 	float: left;
 	width: 60%;
@@ -57,9 +57,11 @@ div.naglowek h1
 	border-right-color: #FFCC00;
 	border-right-width: 3px;
 	margin-right: 10px;
+	height: 100%;
 	min-height: 100%;
+	/* position: absolute; */
 }
-
+*/
  
 .container3
 {
@@ -69,11 +71,20 @@ div.naglowek h1
 
 .main-part
 {
-	
+	float: left;
+	width: 60%;
+	border-right-style: solid;
+	border-right-color: #FFCC00;
+	border-right-width: 3px;
+	margin-right: 10px;
+	height: 100%;
+	min-height: 100%;
 }
 
 .additional-part
 {
+	height: 100%;
+	min-height: 100%;
 	/* margin-left: 10px; */
 }
 
@@ -92,7 +103,7 @@ div.naglowek h1
 
 .container4
 {
-	clear: both;
+	/* clear: both; */
 }
 
 .footer-div
@@ -100,6 +111,7 @@ div.naglowek h1
     /*
 	clear: both;
 	*/
+	clear: both;
 	border-top-style: solid;
 	border-top-color: #FFCC00;
 	border-top-width: 3px;
