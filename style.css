@@ -43,10 +43,8 @@ div.naglowek h1
 
 .container
 {
-	/*
-	margin: 0;
-	padding: 0; 
-	*/
+	display: flex;
+	flex-direction: row;
 }
 
 /* .container2
@@ -68,7 +66,6 @@ div.naglowek h1
 	/* margin-left: 2px; */
 }
 
-
 .main-part
 {
 	float: left;
@@ -78,14 +75,15 @@ div.naglowek h1
 	border-right-width: 3px;
 	margin-right: 10px;
 	height: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 }
 
 .additional-part
 {
 	height: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 	/* margin-left: 10px; */
+}
 }
 
 /* div#flaga
@@ -111,7 +109,12 @@ div.naglowek h1
     /*
 	clear: both;
 	*/
+	/*
 	clear: both;
+	* */
+	position: fixed;
+	width: 100%;
+	bottom: 0px; 
 	border-top-style: solid;
 	border-top-color: #FFCC00;
 	border-top-width: 3px;
