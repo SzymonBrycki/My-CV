@@ -59,6 +59,8 @@ div.naglowek h1
 .container
 {
 	display: table;
+	border-collapse: separate;
+	border-spacing: 10px
 }
 
 /* .container2
