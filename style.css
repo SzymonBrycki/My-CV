@@ -40,17 +40,20 @@ div.nagłówek h1
 {
 	text-align: center;
 	
-	border-top-style: solid;
-	border-top-color: #FFCC00;
-	border-top-width: 3px;
-	
 	border-bottom-style: solid;
 	border-bottom-color: #FFCC00;
 	border-bottom-width: 3px;
+	
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 .basic-info
 {
+	border-top-style: solid;
+	border-top-color: #FFCC00;
+	border-top-width: 3px;
+	
 	border-bottom-style: solid;
 	border-bottom-color: #FFCC00;
 	border-bottom-width: 3px;
@@ -90,7 +93,8 @@ div.nagłówek h1
 
 .div-padding
 {
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #main-part
@@ -112,8 +116,50 @@ div.nagłówek h1
 	/* min-height: 100vh; */
 	/* margin-left: 10px; */
 }
-}
 
+@media only screen and (max-width: 767px)
+{
+	div.nagłówek h1
+	{
+		font-size: 8vw;
+	}
+
+	div.nagłówek h2
+	{
+		font-size: 4vw;
+	}
+
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	/*
+	.divs-egual
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	*/
+	
+	#main-part
+	{
+		width: 100vw;
+		border-right-style: none;
+	}
+	
+	#additional-part
+	{
+		width: 100vw;
+	}
+	
+	.career-goals
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
 /* div#flaga
 {
 	clear: both;
