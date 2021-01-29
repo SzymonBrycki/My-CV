@@ -1,9 +1,22 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
+:root
+{
+	/* background color */
+	--bcolor: #f4e6db;
+	/* front color */
+	--fcolor: #3D486B;
+	
+	/* background color
+	--bcolor: #f4e6db;
+	/* front color 
+	--fcolor: #3D486B; */
+}
+
 body
 {
-	background-color: #f4e6db;
-	color: #3D486B;
+	background-color: var(--bcolor);
+	color: var(--fcolor);
 	margin: 0;
 	padding: 0;
 }
@@ -15,16 +28,14 @@ h1
 
 a:link
 {
-	color: #3D486B;
-	/*
+	color: var(--fcolor);
 	font-weight: bold;
 	font-style: italic;
-	*/
 }
 
 a:visited
 {
-	color: #3D486B;
+	color: var(--fcolor);
 }
 
 div.nagłówek
@@ -52,7 +63,7 @@ div.nagłówek h1
 	text-align: center;
 	
 	border-bottom-style: solid;
-	border-bottom-color: #3D486B;
+	border-bottom-color: var(--fcolor);
 	border-bottom-width: 3px;
 	
 	padding-left: 200px;
@@ -62,11 +73,11 @@ div.nagłówek h1
 .basic-info
 {
 	border-top-style: solid;
-	border-top-color: #3D486B;
+	border-top-color: var(--fcolor);
 	border-top-width: 3px;
 	
 	border-bottom-style: solid;
-	border-bottom-color: #3D486B;
+	border-bottom-color: var(--fcolor);
 	border-bottom-width: 3px;
 }
 
@@ -113,7 +124,7 @@ div.nagłówek h1
 	/* float: left; */
 	width: 55vw;
 	border-right-style: solid;
-	border-right-color: #3D486B;
+	border-right-color: var(--fcolor);
 	border-right-width: 3px;
 	/* margin-right: 10px; */
 	height: 100wh;
@@ -200,7 +211,7 @@ div.nagłówek h1
 	/* clear: both; */
 	width: 100%;
 	height: 75px;
-	background-color: #f4e6db;
+	background-color: var(--bcolor);
 	bottom: 0px;
 
 }
@@ -232,9 +243,9 @@ div.nagłówek h1
 	bottom: 0px;
 	vertical-align: middle;
 	border-top-style: solid;
-	border-top-color: #3D486B;
+	border-top-color: var(--fcolor);
 	border-top-width: 3px;
-	background-color: #f4e6db;
+	background-color: var(--bcolor);
 }
 
 footer
