@@ -3,7 +3,7 @@
 :root
 {
 	/* background color */
-	--bcolor: #F4E6DB;
+	--bcolor: #F1F1E6;
 	/* front color */
 	--fcolor: #3D486B;
 	
@@ -19,6 +19,7 @@ body
 	color: var(--fcolor);
 	margin: 0;
 	padding: 0;
+	font-size: 20px;
 }
 
 h1
@@ -149,12 +150,12 @@ div.nagłówek h1
 {
 	div.nagłówek h1
 	{
-		font-size: 8vw;
+		font-size: 10vw;
 	}
 
 	div.nagłówek h2
 	{
-		font-size: 4vw;
+		font-size: 5vw;
 	}
 
 	.container
@@ -254,6 +255,6 @@ footer
 	text-align: center;
 	font-weight: bold;
 	font-style: italic;
-	/* font-size: 10px; */
+	font-size: 15px;
 	
 }
