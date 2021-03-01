@@ -144,7 +144,7 @@ div.nagłówek h1
 {
 	font-family: Courier New;
 	font-size: 12px;
-	/* font-weight: bold; */
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 800px)
@@ -218,6 +218,11 @@ div.nagłówek h1
 
 }
 
+.table-center
+{
+	text-align: center;
+}
+
 .fa-star
 {
 	color: black;
@@ -225,7 +230,7 @@ div.nagłówek h1
 
 .checked
 {
-		color: gold;
+	color: gold;
 }
 
 .footer-div
