@@ -190,12 +190,12 @@ footer
 		box-shadow: none;
 	}
 
-	div.nagłówek h1
+	div.myheader h1
 	{
 		font-size: 10vw;
 	}
 
-	div.nagłówek h2
+	div.myheader h2
 	{
 		font-size: 5vw;
 	}
