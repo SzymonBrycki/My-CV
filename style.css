@@ -210,11 +210,13 @@ footer
 	{
 		width: 100vw;
 		border-right-style: none;
+		height: auto;
 	}
 	
 	#additional-part
 	{
 		width: 100vw;
+		height: auto;
 	}
 	
 	.career-goals
@@ -222,6 +224,12 @@ footer
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
+	    .copyrights
+    {
+        bottom: 0px;
+        width: 100%;
+    }
 }	
 	
 @media only screen and (min-width: 801px) and (max-width: 1349px)
