@@ -145,9 +145,10 @@ div.myheader h1
 	font-weight: bold;
 }
 
-.table-center
+.center-table
 {
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fa-star
