@@ -161,6 +161,14 @@ div.myheader h1
 	color: gold;
 }
 
+.language-info
+{
+	cursor: help;
+	border-bottom-width: 3px;
+	border-bottom-style: dotted;
+	border-bottom-color: var(--fcolor);
+}
+
 footer
 {
 	flex: 0 0 300px;
