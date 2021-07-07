@@ -50,6 +50,13 @@ a:visited
 	color: var(--fcolor);
 }
 
+hr
+{
+	border: 1px solid var(--fcolor);
+	width: 65%;
+	
+}
+
 div.myheader
 {
 	text-align: center;
