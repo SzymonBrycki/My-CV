@@ -63,7 +63,7 @@ div.myheader
 	top: 0; 
 	right: 0;
 	left: 0;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -84,7 +84,7 @@ div.myheader h1
 
 img
 {
-	width: 75%;
+	width: 100%;
 }
 
 .center-span
@@ -230,11 +230,6 @@ footer
 		font-size: 5vw;
 	}
 	
-	img
-	{
-		width: 65%;
-	}
-
 	.container
 	{
 		display: flex;
@@ -275,12 +270,7 @@ footer
 		margin-right: none;
 		width: auto;
 	}
-	
-	img
-	{
-		width: 75%;
-	}
-}
+
 
 
 
