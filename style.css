@@ -172,6 +172,11 @@ img
 	margin-right: auto;
 }
 
+td.center-inside-table
+{
+	text-align: center;
+}
+
 .fa-star
 {
 	color: black;
