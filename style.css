@@ -63,6 +63,15 @@ div.myheader
 	top: 0; 
 	right: 0;
 	left: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	
+div.myheader2
+{
+	max-width: 75vh;
 }
 
 div.myheader h1
@@ -71,6 +80,11 @@ div.myheader h1
 	font-weight: bold;
 	font-size: 60px;
 	text-shadow: 1px 1px var(--fcolor);
+}
+
+img
+{
+	width: 75%;
 }
 
 .center-span
@@ -205,19 +219,6 @@ footer
 		border: none;
 		box-shadow: none;
 	}
-	
-	div.myheader
-	{
-		height: 100vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	div.myheader2
-	{
-		max-width: 50vh;
-	}
 
 	div.myheader h1
 	{
@@ -227,6 +228,11 @@ footer
 	div.myheader h2
 	{
 		font-size: 5vw;
+	}
+	
+	img
+	{
+		width: 65%;
 	}
 
 	.container
@@ -254,7 +260,7 @@ footer
 		padding-right: 10px;
 	}
 	
-	    .copyrights
+	.copyrights
     {
         bottom: 0px;
         width: 100%;
@@ -268,6 +274,11 @@ footer
 		margin-left: none;
 		margin-right: none;
 		width: auto;
+	}
+	
+	img
+	{
+		width: 75%;
 	}
 }
 
