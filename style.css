@@ -6,13 +6,8 @@
 	--bcolor: #F1F1E6;
 	/* front color */
 	--fcolor: #3D486B;
-	
-	/* 
-	background color
-		--bcolor: #f4e6db;
-	front color 
-		--fcolor: #3D486B; 
-	*/
+	/* th (table header) color*/
+	--thcolor:  #C5CEC2;
 }
 
 body
@@ -166,13 +161,24 @@ img
 	font-weight: bold;
 }
 
+table.no-space
+{
+	border-spacing: 0; 
+	border-collapse: collapse;
+}
+
 .center-table
 {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-td.center-inside-table
+th
+{
+	background-color: var(--thcolor);
+}
+
+.center-inside-table
 {
 	text-align: center;
 }
