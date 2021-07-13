@@ -7,7 +7,7 @@
 	/* front color */
 	--fcolor: #3D486B;
 	/* th (table header) color*/
-	--thcolor:  #C5CEC2;
+	--thcolor: #C5CEC2;
 }
 
 body
@@ -45,6 +45,11 @@ a:visited
 	color: var(--fcolor);
 }
 
+.small-text
+{
+	font-size: 10px;
+}
+
 hr
 {
 	border: 1px solid var(--fcolor);
@@ -77,10 +82,12 @@ div.myheader h1
 	text-shadow: 1px 1px var(--fcolor);
 }
 
+/*
 img
 {
 	width: 100%;
 }
+*/
 
 .center-span
 {
