@@ -223,6 +223,12 @@ th
 	color: var(--bcolor);
 	
 	font-size: 20px;
+	
+	padding-left: 25px;
+	padding-right: 25px;
+	
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .myButton:hover
