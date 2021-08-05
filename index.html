@@ -35,6 +35,49 @@
 				</div>
 			</div>
 			
+						<div class="buttons">
+				
+				<h2><p align="center">Change the color theme of the webpage:</p></h2>
+				
+				<div class="buttons-center">
+	 
+					<button class="myButton" id="RedButton" onclick="changeRed()">Red</button></button> &nbsp;
+					<button class="myButton" id="GreenButton" onclick="changeGreen()">Green</button> &nbsp;
+					<button class="myButton" id="BlueButton" onclick="changeBlue()">Blue</button>
+
+				</div>
+				
+				<script>
+				
+					function changeRed()
+					{
+						document.documentElement.style.setProperty('--bcolor', '#FFF4F3');
+						document.documentElement.style.setProperty('--fcolor', '#800020');
+						document.documentElement.style.setProperty('--thcolor', '#FF8588');
+						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_red.png";
+					}
+					
+					function changeGreen()
+					{
+						document.documentElement.style.setProperty('--bcolor', '#DFF8D5');
+						document.documentElement.style.setProperty('--fcolor', '#006400');
+						document.documentElement.style.setProperty('--thcolor', '#91B585');
+						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_green.png";
+					}
+					
+					function changeBlue()
+					{
+						document.documentElement.style.setProperty('--bcolor', '#F1F1E6');
+						document.documentElement.style.setProperty('--fcolor', '#3D486B');
+						document.documentElement.style.setProperty('--thcolor', '#C5CEC2');
+						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_blue.png";
+					}
+				</script>
+				
+				<br>
+			
+			</div>
+			
 			<div class="basic-info">
 				<h1 align="center">Basic Information & Contact</h1>
 				
@@ -169,49 +212,6 @@
 						</div>	
 					</div>
 				 
-			</div>
-			
-			<div class="buttons">
-				
-				<h2><p align="center">Change the color theme of the webpage:</p></h2>
-				
-				<div class="buttons-center">
-	 
-					<button class="myButton" id="RedButton" onclick="changeRed()">Red</button></button> &nbsp;
-					<button class="myButton" id="GreenButton" onclick="changeGreen()">Green</button> &nbsp;
-					<button class="myButton" id="BlueButton" onclick="changeBlue()">Blue</button>
-
-				</div>
-				
-				<script>
-				
-					function changeRed()
-					{
-						document.documentElement.style.setProperty('--bcolor', '#FFF4F3');
-						document.documentElement.style.setProperty('--fcolor', '#800020');
-						document.documentElement.style.setProperty('--thcolor', '#FF8588');
-						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_red.png";
-					}
-					
-					function changeGreen()
-					{
-						document.documentElement.style.setProperty('--bcolor', '#DFF8D5');
-						document.documentElement.style.setProperty('--fcolor', '#006400');
-						document.documentElement.style.setProperty('--thcolor', '#91B585');
-						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_green.png";
-					}
-					
-					function changeBlue()
-					{
-						document.documentElement.style.setProperty('--bcolor', '#F1F1E6');
-						document.documentElement.style.setProperty('--fcolor', '#3D486B');
-						document.documentElement.style.setProperty('--thcolor', '#C5CEC2');
-						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_blue.png";
-					}
-				</script>
-				
-				<br>
-			
 			</div>
 			
 			<div class="break">
