@@ -6,7 +6,7 @@
 	--bcolor: #F1F1E6;
 	/* front color */
 	--fcolor: #3D486B;
-	/* th (table header) color*/
+	/* th (table header) color */
 	--thcolor: #C5CEC2;
 }
 
@@ -81,13 +81,6 @@ div.myheader h1
 	font-size: 60px;
 	text-shadow: 1px 1px var(--fcolor);
 }
-
-/*
-img
-{
-	width: 100%;
-}
-*/
 
 .center-span
 {
@@ -206,6 +199,36 @@ th
 	border-bottom-width: 3px;
 	border-bottom-style: dotted;
 	border-bottom-color: var(--fcolor);
+}
+
+.buttons
+{
+	border-top-style: solid;
+	border-top-color: var(--fcolor);
+	border-top-width: 3px;
+}
+
+.buttons-center
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.myButton
+{
+	background-color: var(--fcolor);
+	color: var(--bcolor);
+	
+	font-size: 20px;
+}
+
+.myButton:hover
+{
+	background-color: var(--bcolor);
+	color: var(--fcolor);
 }
 
 footer
