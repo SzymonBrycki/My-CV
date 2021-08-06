@@ -47,6 +47,15 @@
 
 				</div>
 				
+				<br>
+				
+				<div class="buttons-center">
+				
+					<button class="myButton" id="BWButton" onclick="changeBW()">B&amp;W</button>
+					<button class="myButton" id="EUButton" onclick="changeEU()">EU</button>
+				
+				</div>
+				
 				<script>
 				
 					function changeRed()
@@ -71,6 +80,22 @@
 						document.documentElement.style.setProperty('--fcolor', '#3D486B');
 						document.documentElement.style.setProperty('--thcolor', '#C5CEC2');
 						document.getElementById("myImage").src = "IMG/Employee_good_colors_v_blue.png";
+					}
+					
+					function changeBW()
+					{
+						document.documentElement.style.setProperty('--bcolor', 'white');
+						document.documentElement.style.setProperty('--fcolor', 'black');
+						document.documentElement.style.setProperty('--thcolor', 'lightgray');
+						document.getElementById("myImage").src = "IMG/Employee_good_colors_vBW.png";
+					}
+					
+					function changeEU()
+					{
+						document.documentElement.style.setProperty('--bcolor', '#003399');
+						document.documentElement.style.setProperty('--fcolor', '#FFCC00'); 
+						document.documentElement.style.setProperty('--thcolor', '#0051F2');
+						document.getElementById("myImage").src = "IMG/Employee_good_colors_vEU.png";
 					}
 				</script>
 				
