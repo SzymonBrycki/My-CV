@@ -249,6 +249,28 @@ footer
 
 }
 
+.table-center-text
+{
+	text-align: center;
+}
+
+/*
+ *******************************************
+ * !!! SCROLLBAR BELOW !!!
+ *******************************************  
+ *  */
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: var(--fcolor);
+	border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track
+{
+	background-color: var(--bcolor);
+}
+
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
