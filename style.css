@@ -4,10 +4,18 @@
 {
 	/* background color */
 	--bcolor: #F1F1E6;
+	
 	/* front color */
-	--fcolor: #3D486B;
+	--fcolor: #191970;
+	
+	/*new front color: #191970 */
+	/*old front color: #3D486B */
+	
 	/* th (table header) color */
-	--thcolor: #C5CEC2;
+	--thcolor: #B9D9EB;
+	
+	/*new th color: #4B9CD3 */
+	/*old th color: #C5CEC2 */
 }
 
 body
