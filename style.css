@@ -184,6 +184,7 @@ table.no-space
 th
 {
 	background-color: var(--thcolor);
+	padding: 5px;
 }
 
 td
