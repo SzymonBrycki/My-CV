@@ -288,6 +288,31 @@ footer
 	width: 40vw;
 }
 
+.table-job
+{
+	width: 100%;
+	display: table;
+}
+
+.table-job-job
+{
+	width: 40%;
+	display: table-cell;
+}
+
+.table-job-middle
+{
+	width: 5%;
+	padding-right: 10px;
+	display: table-cell;
+}
+
+.table-job-description
+{
+	width: 40%;
+	display: table-cell;
+}
+
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
