@@ -79,7 +79,7 @@ div.myheader
 	
 div.myheader2
 {
-	max-width: 75vh;
+	max-width: 95vh;
 }
 
 div.myheader h1
@@ -262,21 +262,30 @@ footer
 	text-align: center;
 }
 
-/*
- *******************************************
- * !!! SCROLLBAR BELOW !!!
- *******************************************  
- *  */
-
-*::-webkit-scrollbar-thumb
+.star-gold
 {
-	background-color: var(--fcolor);
-	border-radius: 10px;
+	color: gold;
 }
 
-*::-webkit-scrollbar-track
+.star-black
 {
-	background-color: var(--bcolor);
+	color: black;
+}
+
+.td-job-description
+{
+	/* max-width: 50vw; */
+	vertical-align: top;
+}
+
+.td-with-padding
+{
+	padding-right: 10px;
+}
+
+.td-with-width
+{
+	width: 40vw;
 }
 
 /*
