@@ -83,6 +83,8 @@ Of course, the above should get filled with actual titles, jobs, educational ach
 
 For description, I would suggest to fill it with place (per instance "Ney Your City, USA") and maybe additional details about university or school ("Oregon State University"). Because there is not too much of space, they should get separated with `<br>` (this also looks nice).
 
+[You can also put within main part other things you are particularly proud of and want to catch the attention of a recruiter.]
+
 #### Dates
 
 Dates are set within a span of **class "span-date"**. They should be in the same div as job/educational achievement, just separated with `<br>` - again, because of space issues and looks.
