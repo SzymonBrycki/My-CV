@@ -63,3 +63,22 @@ The next part is kinda tricky, This is the place where the CV gets divided into 
 Inside this div, there should be two more, one of **class "divs-equal"** and **id "main-part"**. The second should be also of **class "divs-equal"** and have the **id "additional-part"** 
 
 Inside **every** single one of the divs shoul be yet another one, with **class "div-padding"**.
+
+### Main part
+
+This div is meant to showcast your most inportant info, such as work experience and education. When describing them, use the following scheme:
+
+```
+<div class="table-job">
+	<div class="table-job-job">Job <br>
+		<span class="span-date">20XX - 20XX</span></div> 
+	<div class="table-job-middle">-</div> 
+	<div class="table-job-description">description</div>
+</div>
+```
+
+For education do the very same, just change "job" into "degree" or "diploma".
+
+Of course, the above should get filled with actual titles, jobs, educational achievements, years of and description. 
+
+For description, I would suggest to fill it with place (per instance "Ney Your City, USA") and maybe additional details about university or school (Oregon State University"). Because there is not too much of space, they should get separated with **<br>**.
