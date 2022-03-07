@@ -81,8 +81,8 @@ For education do the very same, just change "job" into "degree" or "diploma".
 
 Of course, the above should get filled with actual titles, jobs, educational achievements, years of and description. 
 
-For description, I would suggest to fill it with place (per instance "Ney Your City, USA") and maybe additional details about university or school ("Oregon State University"). Because there is not too much of space, they should get separated with `<br>`.
+For description, I would suggest to fill it with place (per instance "Ney Your City, USA") and maybe additional details about university or school ("Oregon State University"). Because there is not too much of space, they should get separated with `<br>` (this also looks nice).
 
 #### Dates
 
-Dates are set within a span of **class "span-date"**. They should be in the same div as job/educational achievement, just separated with `<br>`.
+Dates are set within a span of **class "span-date"**. They should be in the same div as job/educational achievement, just separated with `<br>` - again, because of space issues and looks.
