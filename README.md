@@ -50,12 +50,16 @@ The first section you will edit is probably gonna be this one. You can just edit
 
 ## Basic info
 
-The next div should be of class "basic-info". You can put there whatever you wanna - your LinkedIn and social media, place of residence, phone number, email address itp.
+The next div should be of **class "basic-info**". You can put there whatever you wanna - your LinkedIn and social media, place of residence, phone number, email address itp.
 
 ## Personal statement
 
-The next div should be of class "career-goals". You can put your personal statement in here.
+The next div should be of **class "career-goals**". You can put your personal statement in here.
 
 ## Class container
 
-The next part is kinda tricky, This is the place where the CV gets divided into 2, non-equal parts (right and left or main and additional). 
+The next part is kinda tricky, This is the place where the CV gets divided into 2, non-equal parts (right and left or main and additional). You should create a big div of **class "container"**. 
+
+Inside this div, there should be two more, one of **class divs-equal** and **id main-part**. The second should be also of **class "divs-equal"** and have the **id "additional-part"** 
+
+Inside **every** single one of the divs shoul be yet another one, with **class "div-padding"**.
