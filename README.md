@@ -6,7 +6,7 @@ This is how to use the repo if you wanna put your own information in there.
 
 # Some initial info
 
-You need basically the contents of IMG, CSS and Template folders. My-onw-CV can be deleted if you download this from GitHub.
+You need basically the contents of `IMG`, `CSS` and `Template` folders. My-onw-CV can be deleted if you download this from GitHub.
 
 `Template` contains the ready-to-be-filled scheme of the website. Refer to README only if you find that you cannot fill it correctly or something feels confusing to you.
 
