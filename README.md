@@ -229,3 +229,22 @@ If you wanna separate various skill group with a "space", you can add the below 
 	<td><br></td>
 </tr>
 ```
+
+## Divs at the end
+
+### Break
+
+Before the copyright section, you should enter an empty div with **class "break"**.
+
+### Copyrights
+
+The last div you should put in your website is this:
+```
+<div class="copyrights">
+	<p>Copyright © 2020 - <script> data = new Date(); document.write(data.getFullYear());</script> Szymon Brycki
+	<br>
+	<a href="https://github.com/SzymonBrycki/My-CV">GNU GPL version 3 or later.</a>
+	<br>				
+	Some rights reserved. </p>
+</div>
+```
