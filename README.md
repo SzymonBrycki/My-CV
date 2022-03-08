@@ -142,3 +142,90 @@ Name of a language should be within span of **class "language-info"**. It should
 ###### Advice on languages
 
 I strongy advice you to use CERF levels when talking about your foreign languages, and also use the scheme above to give details about your certification in a given language. At minimum, you should use **title** within **language-info span** to provide additional information to your recruiter. 
+
+#### Skills
+
+There is also a second table, meant for skills. The basic code looks like below:
+
+```
+<table class="center-table">
+								
+	<tr>
+		<td colspan="2" class="table-center-text"><b>Broad group 1</b></td>
+	</tr>
+								
+	<tr>
+		<td><b>Skill 1</b></td>
+		<td>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-black">★</span>
+			<span class="star-black">★</span>
+		</td>
+	</tr>
+								
+	<tr>
+		<td><br></td>
+	</tr>
+								
+	<tr>
+		<td colspan="2" class="table-center-text"><b>Broad group 2</b></td>
+	</tr>
+								
+	<tr>
+		<td><b>Skill 2</b></td>
+		<td>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-black">★</span>
+			<span class="star-black">★</span>
+		</td>
+	</tr>
+								
+	<tr>
+		<td><b>Skill 3</b></td>
+		
+		<td>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-black">★</span>
+		</td>
+	</tr>
+								
+	<tr>
+		<td><br></td>
+	</tr>
+								
+	<tr>
+		<td colspan="2" class="table-center-text"><b>Broad group 3</b></td>
+	</tr>
+								
+	<tr>
+		<td><b>Skill 4</b></td>
+		<td>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-gold">★</span>
+			<span class="star-black">★</span>
+		</td>
+	</tr>
+								
+</table>
+```
+Description and explanation to make it all less criptic below:
+
+Broad group of skills ("programming languages", "databases", "management skills" etc.) should be set to **colspan=2** and be of **class "table-center-text"**.
+
+Skills should be inside a `<td>` with their name. Then a second `<td>` should follow, with 5 spans of class either **star-gold** or **star-black** with every span containing one black star in UTF (★). This will color them accordingly, to gold or black color. This way is very simple to show how good you are at various skills.
+
+If you wanna separate various skill group with a "space", you can add the below code after the last skill in a skill group:
+```
+<tr>
+	<td><br></td>
+</tr>
+```
