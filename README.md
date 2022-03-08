@@ -36,6 +36,10 @@ This part defines the color palette used by default. Background color [**bcolor*
 
 You will mostly wanna edit this part. Go to template folder and find **index.html**.
 
+## Auto-div
+
+All of the below divs should be in one big, big div of **class "auto-div"**.
+ 
 ## Name header
 
 The first section you will edit is probably gonna be this one. You can just edit the right parts in index.html file. For those of you who are interested: this should be in two divs, like that:
