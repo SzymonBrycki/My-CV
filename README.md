@@ -92,3 +92,53 @@ For description, I would suggest to fill it with place (per instance "Ney Your C
 #### Dates
 
 Dates are set within a span of **class "span-date"**. They should be in the same div as job/educational achievement, just separated with `<br>` - again, because of space issues and looks.
+
+### Additional part
+
+Below is the description of elements that can go into div of **id "additional-part**.
+
+#### Languages
+
+This CV project contains a special table and elements made specially with foreign languages in mind. 
+
+##### Languages table
+
+The table structure for languages look as below:
+
+```
+<table class="center-table no-space">
+
+	<tr>
+		<th class="center-inside-table"><b>Language</b></th>
+		<th class="center-inside-table"><b>CEFR Level</b></th>
+		<th class="center-inside-table"><b>Certification</b></th>
+	</tr>
+	
+	<tr>
+		<td class="center-inside-table"><b><span class="language-info" title="Number of known words 1">Language 1</span></b></td>
+		<td><b>Native</b> language</td>
+		<td> </td>
+	</tr>
+	
+	<tr>
+		<td class="center-inside-table"><b><span class="language-info" title="Number of known words 2">Language 2</span></b></td>
+		<td><b>B2</b></td>
+		<td><b>Certificate 1</b></td>
+	</tr>
+	
+	<tr>
+		<td class="center-inside-table"><b><span class="language-info" title="Number of known words 3">Language 3</span></b></td>
+		<td><b>A2</b></td>
+		<td><b>Certificate 2</b> </td>
+	</tr>
+</table>
+```
+Now, the description, if this all looks somehow enigmatic:
+
+Table header elements (th) should be of class **"center-inside-table"**, so should be td elements containing the name of a language.
+
+Name of a language should be within span of **class "language-info"**. It should also have argument **title with value describing how many words in a given language you know**. After moving your mouse over the elements (which will be underlines with dots) curson will change and the title will be printed. 
+
+###### Advice on languages
+
+I strongy advice you to use CERF levels when talking about your foreign languages, and also use the scheme above to give details about your certification in a given language. At minimum, you should use **title** within **language-info span** to provide additional information to your recruiter. 
