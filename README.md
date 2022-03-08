@@ -1,6 +1,4 @@
-# My CV
-
-## A CV / Resume template of a webpage.
+# A CV / Resume template of a webpage.
 
 This is how to use the repo if you wanna put your own information in there.
 
