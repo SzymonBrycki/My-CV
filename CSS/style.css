@@ -30,6 +30,23 @@
 	background: var(--fcolor);	
 }
 
+::-webkit-scrollbar 
+{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+	background: var(--bcolor);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: var(--fcolor);
+	border-radius: 10px;
+}
+
 body
 {
 	background-color: var(--bcolor);
