@@ -44,8 +44,47 @@
 ::-webkit-scrollbar-thumb
 {
 	background: var(--fcolor);
+	/* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-button
+{
+	background: var(--bcolor);
 	border-radius: 10px;
 }
+
+/******************
+EXPERIMENTAL
+******************/
+
+::-webkit-scrollbar-button:single-button 
+{
+  background-color: var(--fcolor);
+  display: block;
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-radius: 5px 5px 0 0;
+  height: 16px;
+  width: 16px;
+  background-position: center 4px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(241, 241, 230)'><polygon points='50,00 0,50 100,50'/></svg>");
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment 
+{
+  border-radius: 0px 0px 5px 5px;
+  height: 16px;
+  width: 16px;
+  background-position: center 4px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(241, 241, 230)'><polygon points='0,0 100,0 50,50'/></svg>");
+}
+
+/******************
+EXPERIMENTAL END
+******************/
 
 body
 {
