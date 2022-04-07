@@ -30,6 +30,10 @@
 	background: var(--fcolor);	
 }
 
+/******************
+ SCROLLBAR- CHROME
+******************/
+
 ::-webkit-scrollbar 
 {
   width: 10px;
@@ -54,7 +58,7 @@
 }
 
 /******************
-EXPERIMENTAL
+ SCROLLBAR - CHROME (EXPERIMENTAL)
 ******************/
 
 ::-webkit-scrollbar-button:single-button 
@@ -379,6 +383,7 @@ footer
 	width: 5%;
 	padding-right: 10px;
 	display: table-cell;
+	text-align: center;
 }
 
 .table-job-description
@@ -504,7 +509,3 @@ footer
 		margin-right: none;
 		width: auto;
 	}
-
-
-
-
