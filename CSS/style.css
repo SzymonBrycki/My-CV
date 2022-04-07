@@ -462,6 +462,12 @@ li::before
 	*/
 }
 
+.job-title-size
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
