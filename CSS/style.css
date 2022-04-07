@@ -437,6 +437,31 @@ footer
     min-height: 50vh;
 }
 
+ul
+{
+	list-style: none;
+	/*
+	padding: 0;
+	margin: 0;
+	*/
+}
+
+li
+{
+	/*
+	padding-left: 16px;
+	*/
+}
+
+li::before
+{
+	content: "✬";
+	padding-right: 5px;
+	/*
+	color: var(--fcolor);
+	*/
+}
+
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
