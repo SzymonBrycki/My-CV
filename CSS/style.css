@@ -455,7 +455,7 @@ li
 
 li::before
 {
-	content: "✬";
+	content: "✦";
 	padding-right: 5px;
 	/*
 	color: var(--fcolor);
