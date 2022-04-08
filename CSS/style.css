@@ -478,8 +478,8 @@ li::before
 {
 	.auto-div
 	{
-		margin-left: none;
-		margin-right: none;
+		margin-left: 0;
+		margin-right: 0;
 		width: auto;
 		border: none;
 		box-shadow: none;
@@ -536,7 +536,7 @@ li::before
 {
 	.auto-div
 	{
-		margin-left: none;
-		margin-right: none;
+		margin-left: 0;
+		margin-right: 0;
 		width: auto;
 	}
