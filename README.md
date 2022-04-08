@@ -78,14 +78,24 @@ This div is meant to showcast your most inportant info, such as work experience 
 
 ```
 <div class="table-job">
-	<div class="table-job-job">Job <br>
+	<div class="table-job-job"><span class="job-title-size">Job</span> <br>
 		<span class="span-date">20XX - 20XX</span></div> 
 	<div class="table-job-middle">-</div> 
 	<div class="table-job-description">description</div>
 </div>
 ```
 
-For education do the very same, just change "job" into "degree" or "diploma".
+For education do the very same, just change "job" into "degree" or "diploma". There is one difference, though. If you have a specialisation, it should be noted like that:
+
+```
+<div class="table-job">
+	<div class="table-job-job"><span class="job-title-size">Education</span> <br>
+		<b>Specialisation of degree</b>
+		<span class="span-date">20XX - 20XX</span></div> 
+	<div class="table-job-middle">-</div> 
+	<div class="table-job-description">description</div>
+</div>
+```
 
 Of course, the above should get filled with actual titles, jobs, educational achievements, years of and description. 
 
