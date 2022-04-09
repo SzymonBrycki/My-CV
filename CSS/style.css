@@ -468,6 +468,30 @@ li::before
 	font-weight: bold;
 }
 
+ .my-icon a
+{
+	text-decoration: none;
+}
+
+.my-icon a:visited
+{
+	text-decoration: none;
+}
+
+.my-icons-div
+{
+	width: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+#social-links
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+}
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
