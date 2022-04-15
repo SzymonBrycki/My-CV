@@ -4,7 +4,7 @@ This is how to use the repo if you wanna put your own information in there.
 
 # Some initial info
 
-You need basically the contents of `IMG`, `CSS` and `Template` folders. `My-own-CV` can be deleted if you download this from GitHub, as it contains my personal information based on the same website template.
+You need basically the contents of `IMG`, `CSS` and `Template` folders. `My-own-CV` **can be deleted** if you download this from GitHub, as it contains my personal information based on the same website template.
 
 `Template` contains the ready-to-be-filled scheme of the website. Refer to README only if you find that you cannot fill it correctly or something feels confusing to you.
 
