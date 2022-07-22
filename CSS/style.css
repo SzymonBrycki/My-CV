@@ -492,6 +492,28 @@ li::before
 	text-transform: uppercase;
 	font-size: 30px;
 }
+
+
+.ButtonHideSeek
+{
+	background-color: var(--bcolor);
+	color: var(--fcolor);
+	border-color: var(--fcolor);
+	border-width: 1px;
+	border-style: solid;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.HideShowDiv
+{
+	display: none;
+}
 /*
  * *****************************************
  *  !!! MOBILE BELOW !!!
