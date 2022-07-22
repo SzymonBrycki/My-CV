@@ -95,6 +95,15 @@
 								<h1>Education</h1>
 
 								<div class="table-job">
+									<div class="table-job-job"><p><span class="job-title-size">Various IT certificates</span><br>
+										<span class="span-date">2022, July - now</span></p></div>
+									<div class="table-job-middle"> - </div>
+									<div class="table-job-description"> <p><i>Coursera website</i></p></div>
+								</div>
+
+								<p>Look the Certificates section.</p>
+
+								<div class="table-job">
 									<div class="table-job-job"> <p><span class="job-title-size">IT Technician</span><br>
 										<span class="span-date">2017 - 2019</span></p></div>
 									<div class="table-job-middle"> - </div>
@@ -247,20 +256,32 @@
 							</section>
 							
 							<section>
-								<h1>IT Certificates</h1>
-								<ul>
-									<li><b>Microsoft Certificate ITA 101</b> - Introduction to databases</li>
-									<li><b>Microsoft Certificate ITA 103</b> - Programming of Internet applications</li>
-									<li><b>Microsoft Certificate ITA 107</b> - Operating systems</li>
-									<li><b>Microsoft Certificate ITA 109</b> - Web technologies</li>
-									<li><b>EE.08 State IT Technician Diploma</b> - Installation and exploration of computer systems and networks (written: 75%, practical: 100%)</li>
-								</ul>
+
+								<h1>Certificates</h1>
+
+								<button onclick="myFunction()" class="ButtonHideSeek">Hide/Show</button>
+
+								<div id="HideShowDiv" class="HideShowDiv">
+									<h2>IT Technician Certificates</h1>
+									<ul>
+										<li><b>Microsoft Certificate ITA 101</b> - Introduction to databases</li>
+										<li><b>Microsoft Certificate ITA 103</b> - Programming of Internet applications</li>
+										<li><b>Microsoft Certificate ITA 107</b> - Operating systems</li>
+										<li><b>Microsoft Certificate ITA 109</b> - Web technologies</li>
+										<li><b>EE.08 State IT Technician Diploma</b> - Installation and exploration of computer systems and networks (written: 75%, practical: 100%)</li>
+									</ul>
+								</div>
 							</section>
 
 							<section>
 								<h1>Projects & Achievements</h1>
 								<p><b>Book blogger</b></p>
 								<p>In late 2020, I established <a href="https://libridisimone.wordpress.com/">I libri di Simone</a>, a weblog centered around books. I regularly write reviews for the blog and sometimes publish more loose, book-related pieces of writing. I also created and maitain the weblog's accounts in social media (Twitter, Mastodon, TagPacker).</p>
+
+								<hr>
+
+								<p><b>RPG blogger</b></p>
+								<p>I also have an English-language blog about RPG games called <a href="https://rpgwithkaworu.wordpress.com/">RPG with Kaworu</a>. I have made it to present my RPG-related writing to wider audiences. I also wanted to use my English to some creative purpose and it was my wish to create a nice-looking website.</p>
 
 								<hr>
 
@@ -280,7 +301,7 @@
 
 									<li><a href="https://polter.pl/Lochy-Lochow-b21307">Lochy Lochów</a></li>
 
-									<li><a href="https://secure.polter.pl/Magic-the-Gathering-of-Heroes-Spis-tresci-b21302">Magic: the Gathering of Heroes RPG</a> (work in progress)</li>
+									<li><a href="https://secure.polter.pl/Magic-the-Gathering-of-Heroes-Spis-tresci-b21302">Magic: the Gathering of Heroes RPG</a></li>
 
 									<li><a href="https://secure.polter.pl/Eclipse-Phase-druga-edycja-zasady-w-pigulce-b21043">Eclipse Phase druga edycja - zasady w pigułce</a></li>
 
@@ -341,7 +362,22 @@
 				</section>
 			</div>
 			
-		</div>		
+		</div>
+
+		<script>
+			function myFunction() 
+			{
+  				var x = document.getElementById("HideShowDiv");
+  				if (x.style.display === "block") 
+  				{
+   					x.style.display = "none";
+  				} 
+  				else 
+  				{
+    				x.style.display = "block";
+  				}
+			}
+		</script>		
 		
 	</body>
 </html>
