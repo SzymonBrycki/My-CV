@@ -494,13 +494,14 @@ li::before
 }
 
 
-.ButtonHideSeek
+.ButtonHideShow
 {
 	background-color: var(--bcolor);
 	color: var(--fcolor);
 	border-color: var(--fcolor);
 	border-width: 1px;
 	border-style: solid;
+	padding: 10px;
 	font-size: 20px;
 	display: flex;
 	align-items: center;
