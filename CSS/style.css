@@ -113,6 +113,34 @@ h1
 	text-align: center;
 }
 
+h2
+{
+	text-align: center;	
+}
+
+h3
+{
+	text-align: center;
+}
+/****************************
+ * NEED TO WORK ON THESE !!!
+ * **************************/
+
+.centered-text:
+{
+	text-align: center;	
+}
+
+.center-div:
+{
+	display: flex;
+	justify-content: center;
+}
+
+/*******************
+ * BELOW OK
+ * *****************/
+
 a:link
 {
 	color: var(--fcolor);
