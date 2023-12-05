@@ -122,16 +122,13 @@ h3
 {
 	text-align: center;
 }
-/****************************
- * NEED TO WORK ON THESE !!!
- * **************************/
 
-.centered-text:
+.centered-text
 {
 	text-align: center;	
 }
 
-.center-div:
+.center-div
 {
 	display: flex;
 	justify-content: center;
@@ -511,6 +508,7 @@ li::before
 	width: 300px;
 	display: flex;
 	justify-content: space-evenly;
+	margin: auto;
 	padding: 10px;
 }
 
